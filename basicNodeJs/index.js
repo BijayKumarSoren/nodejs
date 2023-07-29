@@ -3,9 +3,6 @@ const path = require('path')
 const app = express()
 const hostname = '127.0.0.1'
 const port = 3000
-const bodyParser = require('body-parser')
-
-app.use(bodyParser.urlencoded({extended : true}))
 
 app.use(express.static(path.join(__dirname, 'static'))); //Add a static folder 'static' 
 
