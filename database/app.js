@@ -67,6 +67,8 @@ const banana = new Fruit({
     review: "Weird texture"
 });
 
+//Basic CURD Operation
+
 // Fruit.insertMany([apple, kiwi, orange, banana])
 //     .then(function () {
 //         console.log("Successfully saved defult items to DB");
