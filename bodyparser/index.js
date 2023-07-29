@@ -16,7 +16,7 @@ app.post('/', (req, res) => {
   var num1 = Number(req.body.num1)
   var num2 = Number(req.body.num2)
   var result = num1 + num2
-  res.send("The Addition is :" + result);
+  res.send("The Addition is :" + result);cd
 })
 
 app.listen(port,hostname, () => {
